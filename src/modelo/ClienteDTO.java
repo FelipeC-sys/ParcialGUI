@@ -10,6 +10,11 @@ public class ClienteDTO {
         this.tipo = tipo;
     }
 
-    public String getNombre() { return nombre; }
-    public String getTipo() { return tipo; }
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
 }
