@@ -10,6 +10,11 @@ public class CompraDTO {
         this.valorUnitario = valorUnitario;
     }
 
-    public int getCantidad() { return cantidad; }
-    public double getValorUnitario() { return valorUnitario; }
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public double getValorUnitario() {
+        return valorUnitario;
+    }
 }
