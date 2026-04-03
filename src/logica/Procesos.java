@@ -15,7 +15,6 @@ public class Procesos {
         } else if (tipo.equals("C")) {
             return 0;
         }
-
         return 0;
     }
 
