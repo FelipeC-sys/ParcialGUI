@@ -13,13 +13,11 @@ public class Coordinador {
 
         double total = procesos.calcularTotal(
                 compra.getValorUnitario(),
-                compra.getCantidad()
-        );
+                compra.getCantidad());
 
         double descuento = procesos.calcularDescuento(
                 cliente.getTipo(),
-                total
-        );
+                total);
 
         double pagoFinal = procesos.calcularPagoFinal(total, descuento);
 
